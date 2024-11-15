@@ -1,0 +1,100 @@
+[
+ {
+  "directory": "/home/hugo/Desktop/scop2",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g3",
+   "-std=c++20",
+   "-c",
+   "srcs/main.cpp",
+   "-o",
+   ".objs/main.o",
+   "-MMD",
+   "-Isrcs",
+   "-Isrcs/camera",
+   "-Isrcs/glad",
+   "-Isrcs/glad/include",
+   "-Isrcs/glad/include/glad",
+   "-Isrcs/glad/include/KHR",
+   "-Isrcs/glad/src",
+   "-Isrcs/shader"
+  ],
+  "file": "srcs/main.cpp"
+ },
+ {
+  "directory": "/home/hugo/Desktop/scop2",
+  "arguments": [
+   "gcc",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g3",
+   "-c",
+   "srcs/glad/src/glad.c",
+   "-o",
+   ".objs/glad/src/glad.o",
+   "-Isrcs",
+   "-Isrcs/camera",
+   "-Isrcs/glad",
+   "-Isrcs/glad/include",
+   "-Isrcs/glad/include/glad",
+   "-Isrcs/glad/include/KHR",
+   "-Isrcs/glad/src",
+   "-Isrcs/shader"
+  ],
+  "file": "srcs/glad/src/glad.c"
+ },
+ {
+  "directory": "/home/hugo/Desktop/scop2",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g3",
+   "-std=c++20",
+   "-c",
+   "srcs/shader/Shader.cpp",
+   "-o",
+   ".objs/shader/Shader.o",
+   "-MMD",
+   "-Isrcs",
+   "-Isrcs/camera",
+   "-Isrcs/glad",
+   "-Isrcs/glad/include",
+   "-Isrcs/glad/include/glad",
+   "-Isrcs/glad/include/KHR",
+   "-Isrcs/glad/src",
+   "-Isrcs/shader"
+  ],
+  "file": "srcs/shader/Shader.cpp"
+ },
+ {
+  "directory": "/home/hugo/Desktop/scop2",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-g3",
+   "-std=c++20",
+   "-c",
+   "srcs/shader/ShaderManager.cpp",
+   "-o",
+   ".objs/shader/ShaderManager.o",
+   "-MMD",
+   "-Isrcs",
+   "-Isrcs/camera",
+   "-Isrcs/glad",
+   "-Isrcs/glad/include",
+   "-Isrcs/glad/include/glad",
+   "-Isrcs/glad/include/KHR",
+   "-Isrcs/glad/src",
+   "-Isrcs/shader"
+  ],
+  "file": "srcs/shader/ShaderManager.cpp"
+ }
+]

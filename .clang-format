@@ -1,0 +1,12 @@
+UseTab: Always
+IndentWidth: 8
+TabWidth: 8
+SpaceBeforeParens: Never
+ColumnLimit: 200
+AlignConsecutiveDeclarations: true
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterControlStatement: Always
+  AfterFunction: true
+  BeforeElse: true
